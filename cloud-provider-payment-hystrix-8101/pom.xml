@@ -18,7 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>me.mofeng</groupId>
-            <artifactId>cloud-api-commons</artifactId>
+            <artifactId>cloud-commons</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>

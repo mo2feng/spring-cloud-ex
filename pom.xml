@@ -10,18 +10,22 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>cloud-provider-payment-8001</module>
-        <module>cloud-consumer-order3080</module>
-        <module>cloud-api-commons</module>
+        <module>cloud-commons</module>
+
+
         <module>cloud-eureka-server-7001</module>
         <module>cloud-eureka-server-7002</module>
+        <module>cloud-provider-payment-8001</module>
         <module>cloud-provider-payment-8002</module>
         <module>cloud-provider-payment-8004</module>
-        <module>cloud-consumer-zk-order-3180</module>
         <module>cloud-provider-payment-consul-8006</module>
-        <module>cloud-consumer-consul-order-3280</module>
-        <module>cloud-consumer-order-feign-3080</module>
         <module>cloud-provider-payment-hystrix-8101</module>
+
+        <module>cloud-consumer-order-3080</module>
+        <module>cloud-consumer-order-zookeeper-3180</module>
+        <module>cloud-consumer-order-consul-3280</module>
+        <module>cloud-consumer-order-feign-3080</module>
+
     </modules>
 
 

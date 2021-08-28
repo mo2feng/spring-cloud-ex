@@ -10,8 +10,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ZKOrderMain3180 {
+public class OrderZookeeperMain3180 {
     public static void main(String[] args) {
-        SpringApplication.run(ZKOrderMain3180.class, args);
+        SpringApplication.run(OrderZookeeperMain3180.class, args);
     }
 }
