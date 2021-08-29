@@ -25,6 +25,7 @@
         <module>cloud-consumer-order-zookeeper-3180</module>
         <module>cloud-consumer-order-consul-3280</module>
         <module>cloud-consumer-order-feign-3080</module>
+        <module>cloud-consumer-order-feign-hystrix-3080</module>
 
     </modules>
 

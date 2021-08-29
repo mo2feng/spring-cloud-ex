@@ -1,0 +1,14 @@
+server:
+  port: 3080
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka7001.test:7001/eureka,http://eureka7002.test:7002/eureka
+
+
+feign:
+  hystrix:
+    enabled: true
